@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuzhentao' => 'wuzhentao@lianjia.com' }
-  s.source           = { :git => 'https://github.com/wuzhentao/PodReouseTest.git', :commit => "659da8a62f81dd5ccd2ea51e5bd50816cc3bd861" }
+  s.source           = { :git => 'https://github.com/wuzhentao/PodReouseTest.git', :commit => "b39a16d08d3e61f7c23fc41550ee96a54fe596b1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
