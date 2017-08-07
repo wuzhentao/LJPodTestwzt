@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'wuzhentao' => 'wuzhentao@lianjia.com' }
   s.source           = { :git => 'https://github.com/wuzhentao/PodReouseTest.git', :commit =>"4db1304bfc06150acf3382c159de63bdb082f957" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.resources = ['Images/*.png', 'Sounds/*']
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LJWechatSDK/*.{h,m}'
