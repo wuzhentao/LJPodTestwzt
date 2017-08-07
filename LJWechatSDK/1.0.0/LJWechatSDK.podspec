@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuzhentao' => 'wuzhentao@lianjia.com' }
-  s.source           = { :git => 'https://github.com/wuzhentao/PodReouseTest.git', :commit =>"4db1304bfc06150acf3382c159de63bdb082f957" }
+  s.source           = { :git => 'https://github.com/wuzhentao/PodReouseTest.git', :commit =>"503869cb4e65d1f0f2482eead46de1a1cba82136" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.resources = 'Images/*.png', 'Sounds/*'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LJWechatSDK/*.{h,m}'
+  s.source_files = 'LJWechatSDK/*'
   s.vendored_libraries = 'LJWechatSDK/libWeChatSDK.a','libWeChatSDK.a'
   s.resource_bundles = {
     'MapBox' => ['MapView/Map/Resources/*.png'],
