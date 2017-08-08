@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'LJWechatSDK/*'
   s.ios = {
-     resource_bundles = {
+     'resource_bundles' => {
     'MapBox' => ['MapView/Map/Resources/*.png'],
     'OtherResources' => ['MapView/Map/OtherResources/*.png']
   }
