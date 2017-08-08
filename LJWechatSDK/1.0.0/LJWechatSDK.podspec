@@ -30,19 +30,13 @@ TODO: Add long description of the pod here.
   s.resources = 'Images/*.png', 'Sounds/*'
   s.ios.deployment_target = '8.0'
 
-  
+
   s.source_files = 'LJWechatSDK/*'
-  s.ios = {
-     'resource_bundles' => {
+  s.ios.vendored_libraries = 'LJWechatSDK/libWeChatSDK.a','libWeChatSDK.a'
+  s.ios.resource_bundles = {
     'MapBox' => ['MapView/Map/Resources/*.png'],
     'OtherResources' => ['MapView/Map/OtherResources/*.png']
   }
-  }
-  s.vendored_libraries = 'LJWechatSDK/libWeChatSDK.a','libWeChatSDK.a'
-  # s.resource_bundles = {
-  #   'MapBox' => ['MapView/Map/Resources/*.png'],
-  #   'OtherResources' => ['MapView/Map/OtherResources/*.png']
-  # }
 
 
   s.frameworks =  'SystemConfiguration' , 'CoreTelephony'
